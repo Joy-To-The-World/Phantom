@@ -19,8 +19,9 @@ Flight controller: involuntary stuff that the drone doesn’t need to control; r
 
 What operating systems, software, firmware, and middleware do each run?
 OS: Linux on board, NuttX on controller
-Software: Mavlink (both), ROS2, 
-Firmware: PX4, 
+Software: on the computer board, software to process data from sensors
+Firmware: PX4
+Middleware: ROS2, MavLink
 
 How do the two communicate with each other?
 
