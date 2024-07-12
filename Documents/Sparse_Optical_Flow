@@ -6,7 +6,7 @@ import time
 lk_params = #TO-DO Read up on Lucas-Kanade Optical Flow. What parameters need to be set? Hint: This should be made as a dictionary.
 
 # Parameters for corner detection using Shi-Tomasi method
-feature_params =  #TO-DO Read up on Shi-Tomasi method. What parameters need to be set? Hint: This should be made as a dictionary.
+feature_params = {"corners": 25, "quality": 0.01, "mindist": 10} #TO-DO Read up on Shi-Tomasi method. What parameters need to be set? Hint: This should be made as a dictionary.
 
 # Variables for tracking
 trajectory_len = 40      # Length of the trajectory
@@ -20,13 +20,13 @@ cap = #TO-DO
 while True:
 
     # Store the start time to calculate FPS
-    start = #TO-DO
+    start = time.time()
 
     # Read a new frame from the video capture
     suc, frame = cap.read()
     if not suc:
         break  # Break if there is an issue reading the frame
-    frame_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # Convert frame to grayscale
+    frame_gray = cv2.cvtColor(image, cv2.COLOR_RGBA2GRAY)  # Convert frame to grayscale
     img = frame.copy()  # Create a copy of the frame for displaying results
 
     # Calculate optical flow for the existing trajectories
