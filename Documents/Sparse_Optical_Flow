@@ -26,7 +26,7 @@ while True:
     suc, frame = cap.read()
     if not suc:
         break  # Break if there is an issue reading the frame
-    frame_gray = cv2.cvtColor(#TO-D))  # Convert frame to grayscale
+    frame_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # Convert frame to grayscale
     img = frame.copy()  # Create a copy of the frame for displaying results
 
     # Calculate optical flow for the existing trajectories
