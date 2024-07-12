@@ -3,7 +3,7 @@ import cv2
 import time
 
 # Parameters for Lucas-Kanade optical flow
-lk_params = #TO-DO Read up on Lucas-Kanade Optical Flow. What parameters need to be set? Hint: This should be made as a dictionary.
+lk_params = prevImg: None, nextImg: None, prevPts: None, nextPts: None, status: None, err: None, winSize: None, maxLevel: None, criteria: None, flags: None, miniEigThreshold: None
 
 # Parameters for corner detection using Shi-Tomasi method
 feature_params = {"corners": 25, "quality": 0.01, "mindist": 10} #TO-DO Read up on Shi-Tomasi method. What parameters need to be set? Hint: This should be made as a dictionary.
