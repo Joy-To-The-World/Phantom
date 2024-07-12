@@ -1,0 +1,38 @@
+1. **What are AR tags and how do they function in augmented reality applications?**
+
+AR tags are basically like mini QR codes that help with localization and identifying the surroundings, they allow for 3D alignment in augmented reality applications. They don’t store information like QR codes. They are used in virtual reality, and in our case, drones and localization.
+
+2. **How do AR tags differ from QR codes and traditional barcodes in terms of technology and application?**
+QR codes and barcodes are normally used to access stored information, make payments, and exchange data. AR tags are similar to QR codes in that they are also scanned for information, but are different in that their main use is to center augmented reality experiences (identifying surroundings, better alignment, etc).
+
+3. **What are the common use cases for AR tags in various industries, such as retail, education, and manufacturing?**
+
+AR tags are used in products for advertisement and to create an immersive experience for the user. AR tags are used in education to enhance the learning experiences of students in schools. They are used in retail to mark their products, so customers can read the AR layer of a tag and find our more about their product without having to contact a store assistant.
+
+4. **How do AR tags facilitate object recognition and tracking in augmented reality environments?**
+
+They use scene tracking and remember the unique features and references in the tag. If you plaster the room with AR tags they can identify reference points and can then track where they are.  And by giving specific AR tags to specific objects, you could also identify objects in an AR environment..
+
+5. **What are the key technical specifications and requirements for creating and using AR tags?**
+
+To create an AR tag, all you need is access to the standardized list of AR tags.  To use them, you need software to read AR tags and a camera.
+
+6. **What software tools and libraries are commonly used for generating and reading AR tags?**
+
+A specific package of ROS can be used to read AR tags, and there exist tools online to generate AR tags. Some common tools include ARToolKit, 
+
+7. **How do lighting conditions and physical obstructions affect the performance of AR tags?**
+
+Lighting would probably have minimal impact since AR tags are very high contrast, and thus would be minimally affected by lighting.  Physical obstructions probably wouldn’t matter unless they block the camera’s vision of AR tags, in which case there’s literally nothing you can do.
+
+8. **What are the security and privacy considerations when using AR tags in public or sensitive environments?**
+
+AR tags are standardized so in sensitive environments they might not be ideal since they can be read by any computer/robot.  The same issue applies in public, although sometimes you might want others to read the tag.
+
+9. **Can AR tags be customized or branded, and how does this affect their readability and effectiveness?**
+
+The colors of the AR tags can determine its visibility to the drone, and the shape of the AR tags can make reading the tag easier or harder.
+
+10. **What are the future trends and developments in AR tag technology and its integration with other emerging technologies like AI and IoT?**
+
+AR tags are becoming more and more common and they can be partnered with AI and IoT tech, like AI recognition, spatial recognition and tracking, wearable AR devices, privacy and security, etc. Enhanced markless AR tags are also developing.
