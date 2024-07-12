@@ -19,7 +19,7 @@ To create an AR tag, all you need is access to the standardized list of AR tags.
 
 6. **What software tools and libraries are commonly used for generating and reading AR tags?**
 
-A specific package of ROS can be used to read AR tags, and there exist tools online to generate AR tags. Some common tools include ARToolKit, 
+A specific package of ROS can be used to read AR tags, and there exist tools online to generate AR tags. Some common tools include ARToolKit, OpenCV, and Aruco.
 
 7. **How do lighting conditions and physical obstructions affect the performance of AR tags?**
 
